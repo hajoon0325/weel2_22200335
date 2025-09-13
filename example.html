@@ -1,1 +1,81 @@
-husss
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .main1 {
+            max-width: 330px;
+            margin: 80px auto 0 auto;
+            padding: 30px 20px 20px 20px;
+            background: none;
+            border-radius: 0;
+            box-shadow: none;
+        }
+        .main1 img {
+            display: block;
+            margin: 0 auto 30px auto;
+        }
+        .main1 h1 {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        .inputbox {
+            margin-bottom: 15px;
+        }
+        .inputbox > .form-control {
+            font-size: 1.05rem;
+            height: 50px;
+        }
+        .inputbox > label {
+            font-size: 1rem;
+        }
+        .checkline {
+            margin-bottom: 20px;
+        }
+        .checklabel {
+            font-size: 1rem;
+        }
+        .btn-primary {
+            font-size: 1.1rem;
+            padding: 0.7rem 0;
+            border-radius: 7px;
+        }
+        .copyright {
+            text-align: center;
+            color: #888;
+            font-size: 1rem;
+            margin-top: 40px;
+        }
+        body {
+            background: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <form>
+            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="logo" width="72" height="57">
+            <h1>Please sign in</h1>
+            <div class="inputbox">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="inputbox">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <div class="checkline">
+                <input type="checkbox" class="form-check-input" id="remember">
+                <label class="checklabel" for="remember">Remember me</label>
+            </div>
+            <button class="w-100 btn btn-primary" type="submit">Sign in</button>
+        </form>
+    </div>
+    <div class="copyright">&copy; 2017 – 2025</div>
+</body>
+</html>
